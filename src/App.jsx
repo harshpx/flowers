@@ -9,7 +9,7 @@ const App = () => {
 
     const fetchHtml = async () => {
         try {
-            const response = await fetch('src/vanilla/flower.html');
+            const response = await fetch('flower.html');
             if (!response.ok) {
                 throw new Error('Failed to fetch HTML');
             }
